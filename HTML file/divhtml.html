@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BBC NEWS</title>
+
+        <style type="text/css">
+        
+        #topbar {
+            width: 1400px;
+            height: 40px;
+            margin: 0 auto;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #logo {
+            height: 40px;
+            margin-top: 5px;
+            margin-right: 5px;
+            float: left;
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 1px grey solid;
+            height: 100%;
+        }
+
+        #account {
+            float: left;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 8px;
+        }
+
+        #signintext {
+            font-weight: bold;
+            margin-top: 18px;
+            margin-left: 5px;
+            margin-right: 100px;
+            margin-bottom: 8px;
+            font-size: 90%;
+            float: left;
+        }
+
+        .mainheads {
+            position: relative;
+            font-weight: bold;
+            top: 15px;
+            left: 15px;
+            padding-right: 40px;
+           font-size: 90%;
+           float: left;
+
+        }
+
+        #morearrow {
+            position: relative;
+            top: 15px;
+            float: left;
+
+        }
+
+        #more {
+            position: relative;
+            font-weight: bold;
+            top: 15px;
+            left: 15px;
+            padding-right: 70px;
+           font-size: 90%;
+           float: left;
+        }
+
+        #search {
+            border: 0;
+            background-color: #E4E4E4;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding-top: 2px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            font-weight: bold;
+            color: #858585;
+            float: left;
+
+        }
+
+        #searchicon {
+            margin-top: 10px;
+            margin-right: 50px;
+            width: 24px;
+            height: 23px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #bigredbar {
+            width: 100%;
+            height: 70px;
+            background-color: #BB1919;
+        }
+
+        #innerredbar {
+            width: 1400px;
+            height: 60px;
+            margin: 0 auto;
+        }
+
+        #bignews {
+            margin: 0;
+            padding: 0;         
+            color: white;
+            margin-top: 5px;
+            font-weight: normal;
+            font-size: 45px;
+        }
+
+        #secondredcontainer {
+            width: 100%;
+            height: 30px;
+            background-color: #BB1919;
+        }
+
+        #secondredmenu {
+            height: 20px;
+            width: 1450px;
+            margin: 0 auto;
+            padding-left: 40px;
+        }
+
+        .redmenu {
+            font-weight: normal;
+            font-size: 90%;
+            text-decoration: none;
+            color: white;
+            float: left;
+            border-right: 1px solid #BB4545;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        #downredarrow {
+            position: relative;
+            bottom: 5px;
+            right: 3px;
+        }
+
+        #firstlongdiv {
+            width: 100%;
+            height: 350px;
+            margin-top: 100px;
+            
+        }
+
+        #firstpost {
+            height: 250px;
+            width: 320px;
+            float: left;
+        }
+
+        #firstpostheading {
+            font-size: 30px;
+            font-weight: bold;
+            padding-left: 100px;
+        }
+
+        h1 a{
+            color: black;
+            text-decoration: none;
+        }
+
+        h1 a:hover {
+            color: #1380A1;
+            text-decoration: underline;
+        }
+
+        #firstpoststarter {
+            padding-left: 100px;
+        }
+
+        .poststarter {
+            color: #758C9F;
+            font-size: 90%;
+            
+        }
+
+        .mainarticle {
+            color: #758C9F;
+            text-decoration: none;
+        }
+
+        #watch {
+            padding-left: 100px;
+            float: left;
+        }
+
+        .time {
+            position: relative;
+            top: 5px;
+            right: 3px;
+            font-size: 90%;
+            color: #758C9F;
+            float: left;
+            border-right: 1px solid #BB4545;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .country {
+            font-size: 80%;
+            position: relative;
+            bottom: 7px;
+            left: 5px;
+            float: left;
+        }
+
+        #image1 {
+            width: 580px;
+            height: 300px;
+            margin-left: 20px;
+        }
+
+        #extraitems {
+            width: 950px;
+            height: 30px;
+        }
+
+        #dot {
+            padding-left: 90px;
+            position: relative;
+            bottom: 6px;
+            float: left;
+        }
+
+        #ques1 {
+            width: 330px;
+            font-size: 90%;
+            font-weight: bold;
+            float: left;
+        }
+
+        #ques2 {
+            width: 300px;
+            font-size: 90%;
+            font-weight: bold;
+            float: left;
+        }
+
+        #ques3 {
+            width: 300px;
+            font-size: 90%;
+            font-weight: bold;
+            float: left;
+        }
+
+        .middle {
+            font-size: 90%;
+            margin: 0 auto;
+        }
+
+        h6 a{
+            color: black;
+            text-decoration: none;
+        }
+
+        h6 a:hover {
+            color: #2187A7;
+            text-decoration: underline;
+        }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="topbar">
+            <div id="logo"> <img src="bbc_logo.png"> </div>
+
+            <div class="topbar-section">
+                <img id="account" src="account.png">
+                <span id="signintext">Sign In</span>
+            </div>
+
+            <div class="topbar-section"><span class="mainheads">Home</span></div>
+            <div class="topbar-section"><span class="mainheads">News</span></div>
+            <div class="topbar-section"><span class="mainheads">Sport</span></div>
+            <div class="topbar-section"><span class="mainheads">Reel</span></div>
+            <div class="topbar-section"><span class="mainheads">Worklife</span></div>
+            <div class="topbar-section"><span class="mainheads">Travel</span></div>
+            <div class="topbar-section"><span class="mainheads">Future</span></div>
+            <div class="topbar-section"><span class="mainheads">Culture</span></div>
+            <div class="topbar-section"><span id="more">More</span><img id="morearrow" src="morearrow.png"></div>
+            <div class="topbar-section"><input id="search" type="text" placeholder="Search"><img id="searchicon" src="searchicon.png"></div>
+        </div>
+
+        <div class="clear"></div>
+        <div id="bigredbar">
+            <div id="innerredbar">
+                <h1 id="bignews">NEWS</h1>
+            </div>
+
+            <div id="secondredcontainer">
+                <div id="secondredmenu">
+                    <div><a href="" class="redmenu">Home</a></div>
+                    <div><a href="" class="redmenu">US Election</a></div>
+                    <div><a href="" class="redmenu">Coronavirus</a></div>
+                    <div><a href="" class="redmenu">Video</a></div>
+                    <div><a href="" class="redmenu">World</a></div>
+                    <div><a href="" class="redmenu">Asia</a></div>
+                    <div><a href="" class="redmenu">UK</a></div>
+                    <div><a href="" class="redmenu">Business</a></div>
+                    <div><a href="" class="redmenu">Tech</a></div>
+                    <div><a href="" class="redmenu">Science</a></div>
+                    <div><a href="" class="redmenu">Stories</a></div>
+                    <div><a href="" class="redmenu">Entertainment & Arts</a></div>
+                    <div><a href="" class="redmenu">Health</a></div>
+                    <div><a href="" class="redmenu">World News TV</a></div>
+                    <div><a href="" class="redmenu">In Pictures</a></div>
+                    <div><a href="" class="redmenu">More</a><img id="downredarrow" src="downredarrow.PNG"></div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div id="firstlongdiv">
+            <div id="firstpost">
+                <h1 id="firstpostheading"><a href="">Trump stokes Kamala Harris 'birther' theory</a></h1>
+                <p id="firstpoststarter" class="poststarter"><a class="mainarticle" href="">US President fuels a fringe idea, echoing his past baseless claims about Barack Obama's origins.</a></p>
+                <img id="watch" src="watch.PNG">
+                <span class="time">4h</span>
+                <p class="country">US & Canada</p>
+
+            </div>
+
+            <div><img id="image1" src="trump.PNG" alt="Trump stokes Kamala Harris 'birther' theory"></div>
+
+            <div class="clear"></div>
+
+            <div id="extraitems">
+
+                <div id="ques1">
+                    <div><img id="dot" src="dot.PNG"></div>
+                    <h6 class="middle"><a href="">Who is Kamala Harris?</a></h6>
+                </div>
+
+                <div id="ques2">
+                    <div><img id="dot" src="dot.PNG"></div>
+                    <h6 class="middle"><a href="">Why Kamala Harris is a historic VP candidate?</a></h6>
+                </div>
+              
+                <div id="ques3">
+                    <div><img id="dot" src="dot.PNG"></div>
+                    <h6 class="middle"><a href="">How Kamala Harris could help - or hurt - Joe Biden</a></h6>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
